@@ -1,0 +1,181 @@
+* {
+    list-style: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.secao-banner-header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url("imagens/audi-background-banner-header.png") no-repeat;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+main {
+    width: 90%;
+    min-height: 60vh;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-menu {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+
+}
+.items-menu > li {
+    list-style: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.container-banner > div > button {
+    min-width: 10rem;
+    padding: 1rem;
+    height: 4rem;
+    background: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+.container-banner > div > button:hover {
+    background: none;
+    cursor: pointer;
+}
+.container-banner > h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+h2 {
+    font-weight: 200;
+    color: white;
+    font-size: 20px;
+}
+/* Conteudo do banner */
+.container-conteudo-items {
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-conteudo-items > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-conteudo-items > div:first-child {
+    border-right: 1px dashed rgba(34, 34, 34, 0.5);
+}
+.container-conteudo-items > div:nth-child(2) {
+    border-right: 1px dashed rgba(34, 34, 34, 0.5);
+}
+/* Container imagem principal */
+.container-img-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-carro-audi {
+    width: 70%;
+    z-index: 1;
+}
+.secao-conteudo-principal > div > h4 {
+    width: 85%;
+    position: absolute;
+    left: 7rem;
+    top: 119vh;
+    text-align: center;
+    z-index: -1;
+    font-size: 60px;
+}
+.secao-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-main {
+    color: white;
+    min-width: 10rem;
+    padding: 1rem;
+    height: 4rem;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    font-weight: 700;
+}
+.btn-main:hover {
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+.container-btn-black {
+    margin-bottom:2rem ;
+}
+.btn-black {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.info-footer {
+    display: flex;
+    height: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-footer > div > ul > li {
+    font-size: 12px;
+}
+.container-footer > div > ul > li:first-child {
+    font-weight: 700;
+}
+.container-text {
+    display: flex;
+    width: 30%;
+}
+.container-text > span {
+    font-size: 12px;
+}    
+.follow {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}  
+.follow > div > span {
+    font-size: 12px;
+}  
+.icones-follow {
+    display: flex;
+    justify-content:space-between;
+}
+.icones-follow > li > img {
+    width: 65%;
+}
